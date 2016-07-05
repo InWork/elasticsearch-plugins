@@ -1,3 +1,3 @@
-FROM elasticsearch:2.3
+FROM elasticsearch:latest
 
 RUN bin/plugin install delete-by-query
